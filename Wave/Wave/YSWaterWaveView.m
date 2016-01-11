@@ -38,6 +38,8 @@
 
 @implementation YSWaterWaveView
 
+static const CGFloat kExtraHeight = 20;     // 保证水波波峰不被裁剪，增加部分额外的高度
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -77,7 +79,7 @@
 {
     // 默认设置一些属性
     self.waveCycle = 1.66 * M_PI / CGRectGetWidth(self.frame);     // 影响波长
-    self.currentWavePointY = CGRectGetHeight(self.frame);       // 波纹从下往上升起
+    self.currentWavePointY = CGRectGetHeight(self.frame) * self.percent;       // 波纹从下往上升起
     
     self.waveGrowth = 1.0;
     self.waveSpeed = 0.4 / M_PI;
@@ -88,7 +90,7 @@
 - (void)resetProperty
 {
     // 重置属性
-    self.currentWavePointY = CGRectGetHeight(self.frame);
+    self.currentWavePointY = CGRectGetHeight(self.frame) * self.percent;
     self.offsetX = 0;
     
     self.variable = 1.6;
@@ -154,7 +156,7 @@
 {
     // gradientLayer在上升完成之后的frame值，如果gradientLayer在上升过程中不断变化frame值会导致一开始绘制卡顿，所以只进行一次赋值
     
-    CGFloat gradientLayerHeight = CGRectGetHeight(self.frame) * self.percent + 20;  // 加上20保证gradientLayer高度比waveLayer达到波峰时高度要高
+    CGFloat gradientLayerHeight = CGRectGetHeight(self.frame) * self.percent + kExtraHeight;
     
     if (gradientLayerHeight > CGRectGetHeight(self.frame))
     {
@@ -230,7 +232,11 @@
 - (BOOL)waveFinished
 {
     // 波浪上升动画是否完成
-    return self.currentWavePointY <= (CGRectGetHeight(self.frame) * (1 - self.percent));
+    CGFloat d = CGRectGetHeight(self.frame) - CGRectGetHeight(self.gradientLayer.frame);
+    CGFloat extraH = MIN(d, kExtraHeight);
+    BOOL bFinished = self.currentWavePointY <= extraH;
+    
+    return bFinished;
 }
 
 - (void)setCurrentWaveLayerPath
