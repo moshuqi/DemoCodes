@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        MAMapServices.sharedServices().apiKey = "e8be3a280e6fc3c2651ebef77e7a0fa5"
+        
         return true
     }
 

@@ -7,8 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65044E511C8173060070047B /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65044E501C8173060070047B /* MyAnnotation.swift */; };
+		65044E531C8185E00070047B /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65044E521C8185E00070047B /* MAMapKit.framework */; };
+		65044E551C8185EB0070047B /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 65044E541C8185EB0070047B /* AMap.bundle */; };
+		655283921C803E0800002F52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655283911C803E0800002F52 /* UIKit.framework */; };
+		655283941C803E1200002F52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655283931C803E1200002F52 /* Foundation.framework */; };
+		655283961C803E2000002F52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655283951C803E2000002F52 /* CoreGraphics.framework */; };
+		655283A81C80467E00002F52 /* SwiftTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655283A71C80467E00002F52 /* SwiftTestView.swift */; };
+		655283AB1C8049C600002F52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655283A91C8049C600002F52 /* ViewController.swift */; };
+		655283AF1C804AA300002F52 /* RunningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655283AD1C804AA300002F52 /* RunningViewController.swift */; };
+		655283B01C804AA300002F52 /* RunningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655283AE1C804AA300002F52 /* RunningViewController.xib */; };
+		655283B41C804D1E00002F52 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655283B31C804D1E00002F52 /* QuartzCore.framework */; };
+		655283B61C804D2A00002F52 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655283B51C804D2A00002F52 /* CoreLocation.framework */; };
+		655283C31C80508100002F52 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655283C21C80508100002F52 /* OpenGLES.framework */; };
+		655283C51C80509000002F52 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655283C41C80509000002F52 /* CoreTelephony.framework */; };
+		655283C71C80509E00002F52 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655283C61C80509E00002F52 /* SystemConfiguration.framework */; };
+		655283CA1C8050BB00002F52 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655283C91C8050BB00002F52 /* Security.framework */; };
+		655284431C80708D00002F52 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 655284421C80708D00002F52 /* libstdc++.6.0.9.tbd */; };
+		655284451C80709500002F52 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 655284441C80709500002F52 /* libz.tbd */; };
 		65D0B58C1C5E24E200F2385E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D0B58B1C5E24E200F2385E /* AppDelegate.swift */; };
-		65D0B58E1C5E24E200F2385E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D0B58D1C5E24E200F2385E /* ViewController.swift */; };
 		65D0B5911C5E24E200F2385E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D0B58F1C5E24E200F2385E /* Main.storyboard */; };
 		65D0B5931C5E24E200F2385E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D0B5921C5E24E200F2385E /* Assets.xcassets */; };
 		65D0B5961C5E24E200F2385E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D0B5941C5E24E200F2385E /* LaunchScreen.storyboard */; };
@@ -34,9 +51,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65044E501C8173060070047B /* MyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
+		65044E521C8185E00070047B /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		65044E541C8185EB0070047B /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = MAMapKit.framework/Versions/3.2.0.163b642/Resources/AMap.bundle; sourceTree = "<group>"; };
+		655283911C803E0800002F52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		655283931C803E1200002F52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		655283951C803E2000002F52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		655283A11C80404E00002F52 /* MapPath-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapPath-Bridging-Header.h"; sourceTree = "<group>"; };
+		655283A71C80467E00002F52 /* SwiftTestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTestView.swift; sourceTree = "<group>"; };
+		655283A91C8049C600002F52 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		655283AD1C804AA300002F52 /* RunningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunningViewController.swift; sourceTree = "<group>"; };
+		655283AE1C804AA300002F52 /* RunningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RunningViewController.xib; sourceTree = "<group>"; };
+		655283B31C804D1E00002F52 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		655283B51C804D2A00002F52 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		655283C21C80508100002F52 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		655283C41C80509000002F52 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		655283C61C80509E00002F52 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		655283C91C8050BB00002F52 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		655284421C80708D00002F52 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		655284441C80709500002F52 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		65D0B5881C5E24E200F2385E /* MapPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D0B58B1C5E24E200F2385E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65D0B58D1C5E24E200F2385E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65D0B5901C5E24E200F2385E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65D0B5921C5E24E200F2385E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65D0B5951C5E24E200F2385E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +89,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65044E531C8185E00070047B /* MAMapKit.framework in Frameworks */,
+				655284451C80709500002F52 /* libz.tbd in Frameworks */,
+				655284431C80708D00002F52 /* libstdc++.6.0.9.tbd in Frameworks */,
+				655283CA1C8050BB00002F52 /* Security.framework in Frameworks */,
+				655283C71C80509E00002F52 /* SystemConfiguration.framework in Frameworks */,
+				655283C51C80509000002F52 /* CoreTelephony.framework in Frameworks */,
+				655283C31C80508100002F52 /* OpenGLES.framework in Frameworks */,
+				655283B61C804D2A00002F52 /* CoreLocation.framework in Frameworks */,
+				655283B41C804D1E00002F52 /* QuartzCore.framework in Frameworks */,
+				655283961C803E2000002F52 /* CoreGraphics.framework in Frameworks */,
+				655283941C803E1200002F52 /* Foundation.framework in Frameworks */,
+				655283921C803E0800002F52 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +124,19 @@
 		65D0B57F1C5E24E200F2385E = {
 			isa = PBXGroup;
 			children = (
+				65044E541C8185EB0070047B /* AMap.bundle */,
+				65044E521C8185E00070047B /* MAMapKit.framework */,
+				655284441C80709500002F52 /* libz.tbd */,
+				655284421C80708D00002F52 /* libstdc++.6.0.9.tbd */,
+				655283C91C8050BB00002F52 /* Security.framework */,
+				655283C61C80509E00002F52 /* SystemConfiguration.framework */,
+				655283C41C80509000002F52 /* CoreTelephony.framework */,
+				655283C21C80508100002F52 /* OpenGLES.framework */,
+				655283B51C804D2A00002F52 /* CoreLocation.framework */,
+				655283B31C804D1E00002F52 /* QuartzCore.framework */,
+				655283951C803E2000002F52 /* CoreGraphics.framework */,
+				655283931C803E1200002F52 /* Foundation.framework */,
+				655283911C803E0800002F52 /* UIKit.framework */,
 				65D0B58A1C5E24E200F2385E /* MapPath */,
 				65D0B59F1C5E24E200F2385E /* MapPathTests */,
 				65D0B5AA1C5E24E200F2385E /* MapPathUITests */,
@@ -98,11 +158,16 @@
 			isa = PBXGroup;
 			children = (
 				65D0B58B1C5E24E200F2385E /* AppDelegate.swift */,
-				65D0B58D1C5E24E200F2385E /* ViewController.swift */,
 				65D0B58F1C5E24E200F2385E /* Main.storyboard */,
 				65D0B5921C5E24E200F2385E /* Assets.xcassets */,
 				65D0B5941C5E24E200F2385E /* LaunchScreen.storyboard */,
 				65D0B5971C5E24E200F2385E /* Info.plist */,
+				655283A11C80404E00002F52 /* MapPath-Bridging-Header.h */,
+				655283A71C80467E00002F52 /* SwiftTestView.swift */,
+				655283A91C8049C600002F52 /* ViewController.swift */,
+				655283AD1C804AA300002F52 /* RunningViewController.swift */,
+				655283AE1C804AA300002F52 /* RunningViewController.xib */,
+				65044E501C8173060070047B /* MyAnnotation.swift */,
 			);
 			path = MapPath;
 			sourceTree = "<group>";
@@ -229,6 +294,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65044E551C8185EB0070047B /* AMap.bundle in Resources */,
+				655283B01C804AA300002F52 /* RunningViewController.xib in Resources */,
 				65D0B5961C5E24E200F2385E /* LaunchScreen.storyboard in Resources */,
 				65D0B5931C5E24E200F2385E /* Assets.xcassets in Resources */,
 				65D0B5911C5E24E200F2385E /* Main.storyboard in Resources */,
@@ -256,7 +323,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D0B58E1C5E24E200F2385E /* ViewController.swift in Sources */,
+				655283A81C80467E00002F52 /* SwiftTestView.swift in Sources */,
+				655283AB1C8049C600002F52 /* ViewController.swift in Sources */,
+				65044E511C8173060070047B /* MyAnnotation.swift in Sources */,
+				655283AF1C804AA300002F52 /* RunningViewController.swift in Sources */,
 				65D0B58C1C5E24E200F2385E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,10 +467,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MapPath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = msq.MapPath;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yspaobu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MapPath/MapPath-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -408,10 +486,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MapPath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = msq.MapPath;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yspaobu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MapPath/MapPath-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +567,7 @@
 				65D0B5B21C5E24E200F2385E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65D0B5B31C5E24E200F2385E /* Build configuration list for PBXNativeTarget "MapPathTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +576,7 @@
 				65D0B5B51C5E24E200F2385E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65D0B5B61C5E24E200F2385E /* Build configuration list for PBXNativeTarget "MapPathUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +585,7 @@
 				65D0B5B81C5E24E200F2385E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
