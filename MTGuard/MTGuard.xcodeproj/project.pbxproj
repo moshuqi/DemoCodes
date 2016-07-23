@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65DD5C7B1D42FF8400742688 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD5C7A1D42FF8400742688 /* main.m */; };
+		65DD5C7E1D42FF8400742688 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD5C7D1D42FF8400742688 /* AppDelegate.m */; };
+		65DD5C811D42FF8400742688 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD5C801D42FF8400742688 /* ViewController.m */; };
+		65DD5C841D42FF8400742688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DD5C821D42FF8400742688 /* Main.storyboard */; };
+		65DD5C861D42FF8400742688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DD5C851D42FF8400742688 /* Assets.xcassets */; };
+		65DD5C891D42FF8400742688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DD5C871D42FF8400742688 /* LaunchScreen.storyboard */; };
+		65DD5C941D42FF8400742688 /* MTGuardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD5C931D42FF8400742688 /* MTGuardTests.m */; };
+		65DD5C9F1D42FF8400742688 /* MTGuardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD5C9E1D42FF8400742688 /* MTGuardUITests.m */; };
+		65DD5CAE1D42FFE400742688 /* UIViewController+swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD5CAD1D42FFE400742688 /* UIViewController+swizzled.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65DD5C901D42FF8400742688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65DD5C6E1D42FF8400742688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65DD5C751D42FF8400742688;
+			remoteInfo = MTGuard;
+		};
+		65DD5C9B1D42FF8400742688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65DD5C6E1D42FF8400742688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65DD5C751D42FF8400742688;
+			remoteInfo = MTGuard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65DD5C761D42FF8400742688 /* MTGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DD5C7A1D42FF8400742688 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65DD5C7C1D42FF8400742688 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65DD5C7D1D42FF8400742688 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65DD5C7F1D42FF8400742688 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		65DD5C801D42FF8400742688 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65DD5C831D42FF8400742688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65DD5C851D42FF8400742688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65DD5C881D42FF8400742688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65DD5C8A1D42FF8400742688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DD5C8F1D42FF8400742688 /* MTGuardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTGuardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DD5C931D42FF8400742688 /* MTGuardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTGuardTests.m; sourceTree = "<group>"; };
+		65DD5C951D42FF8400742688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DD5C9A1D42FF8400742688 /* MTGuardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTGuardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DD5C9E1D42FF8400742688 /* MTGuardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTGuardUITests.m; sourceTree = "<group>"; };
+		65DD5CA01D42FF8400742688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DD5CAC1D42FFE400742688 /* UIViewController+swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+swizzled.h"; sourceTree = "<group>"; };
+		65DD5CAD1D42FFE400742688 /* UIViewController+swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+swizzled.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65DD5C731D42FF8400742688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DD5C8C1D42FF8400742688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DD5C971D42FF8400742688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65DD5C6D1D42FF8400742688 = {
+			isa = PBXGroup;
+			children = (
+				65DD5C781D42FF8400742688 /* MTGuard */,
+				65DD5C921D42FF8400742688 /* MTGuardTests */,
+				65DD5C9D1D42FF8400742688 /* MTGuardUITests */,
+				65DD5C771D42FF8400742688 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65DD5C771D42FF8400742688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65DD5C761D42FF8400742688 /* MTGuard.app */,
+				65DD5C8F1D42FF8400742688 /* MTGuardTests.xctest */,
+				65DD5C9A1D42FF8400742688 /* MTGuardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65DD5C781D42FF8400742688 /* MTGuard */ = {
+			isa = PBXGroup;
+			children = (
+				65DD5C7C1D42FF8400742688 /* AppDelegate.h */,
+				65DD5C7D1D42FF8400742688 /* AppDelegate.m */,
+				65DD5C7F1D42FF8400742688 /* ViewController.h */,
+				65DD5C801D42FF8400742688 /* ViewController.m */,
+				65DD5C821D42FF8400742688 /* Main.storyboard */,
+				65DD5C851D42FF8400742688 /* Assets.xcassets */,
+				65DD5C871D42FF8400742688 /* LaunchScreen.storyboard */,
+				65DD5C8A1D42FF8400742688 /* Info.plist */,
+				65DD5C791D42FF8400742688 /* Supporting Files */,
+				65DD5CAC1D42FFE400742688 /* UIViewController+swizzled.h */,
+				65DD5CAD1D42FFE400742688 /* UIViewController+swizzled.m */,
+			);
+			path = MTGuard;
+			sourceTree = "<group>";
+		};
+		65DD5C791D42FF8400742688 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65DD5C7A1D42FF8400742688 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65DD5C921D42FF8400742688 /* MTGuardTests */ = {
+			isa = PBXGroup;
+			children = (
+				65DD5C931D42FF8400742688 /* MTGuardTests.m */,
+				65DD5C951D42FF8400742688 /* Info.plist */,
+			);
+			path = MTGuardTests;
+			sourceTree = "<group>";
+		};
+		65DD5C9D1D42FF8400742688 /* MTGuardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65DD5C9E1D42FF8400742688 /* MTGuardUITests.m */,
+				65DD5CA01D42FF8400742688 /* Info.plist */,
+			);
+			path = MTGuardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65DD5C751D42FF8400742688 /* MTGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DD5CA31D42FF8400742688 /* Build configuration list for PBXNativeTarget "MTGuard" */;
+			buildPhases = (
+				65DD5C721D42FF8400742688 /* Sources */,
+				65DD5C731D42FF8400742688 /* Frameworks */,
+				65DD5C741D42FF8400742688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTGuard;
+			productName = MTGuard;
+			productReference = 65DD5C761D42FF8400742688 /* MTGuard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65DD5C8E1D42FF8400742688 /* MTGuardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DD5CA61D42FF8400742688 /* Build configuration list for PBXNativeTarget "MTGuardTests" */;
+			buildPhases = (
+				65DD5C8B1D42FF8400742688 /* Sources */,
+				65DD5C8C1D42FF8400742688 /* Frameworks */,
+				65DD5C8D1D42FF8400742688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65DD5C911D42FF8400742688 /* PBXTargetDependency */,
+			);
+			name = MTGuardTests;
+			productName = MTGuardTests;
+			productReference = 65DD5C8F1D42FF8400742688 /* MTGuardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65DD5C991D42FF8400742688 /* MTGuardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DD5CA91D42FF8400742688 /* Build configuration list for PBXNativeTarget "MTGuardUITests" */;
+			buildPhases = (
+				65DD5C961D42FF8400742688 /* Sources */,
+				65DD5C971D42FF8400742688 /* Frameworks */,
+				65DD5C981D42FF8400742688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65DD5C9C1D42FF8400742688 /* PBXTargetDependency */,
+			);
+			name = MTGuardUITests;
+			productName = MTGuardUITests;
+			productReference = 65DD5C9A1D42FF8400742688 /* MTGuardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65DD5C6E1D42FF8400742688 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = msq;
+				TargetAttributes = {
+					65DD5C751D42FF8400742688 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					65DD5C8E1D42FF8400742688 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 65DD5C751D42FF8400742688;
+					};
+					65DD5C991D42FF8400742688 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 65DD5C751D42FF8400742688;
+					};
+				};
+			};
+			buildConfigurationList = 65DD5C711D42FF8400742688 /* Build configuration list for PBXProject "MTGuard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65DD5C6D1D42FF8400742688;
+			productRefGroup = 65DD5C771D42FF8400742688 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65DD5C751D42FF8400742688 /* MTGuard */,
+				65DD5C8E1D42FF8400742688 /* MTGuardTests */,
+				65DD5C991D42FF8400742688 /* MTGuardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65DD5C741D42FF8400742688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DD5C891D42FF8400742688 /* LaunchScreen.storyboard in Resources */,
+				65DD5C861D42FF8400742688 /* Assets.xcassets in Resources */,
+				65DD5C841D42FF8400742688 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DD5C8D1D42FF8400742688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DD5C981D42FF8400742688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65DD5C721D42FF8400742688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DD5C811D42FF8400742688 /* ViewController.m in Sources */,
+				65DD5C7E1D42FF8400742688 /* AppDelegate.m in Sources */,
+				65DD5CAE1D42FFE400742688 /* UIViewController+swizzled.m in Sources */,
+				65DD5C7B1D42FF8400742688 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DD5C8B1D42FF8400742688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DD5C941D42FF8400742688 /* MTGuardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DD5C961D42FF8400742688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DD5C9F1D42FF8400742688 /* MTGuardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65DD5C911D42FF8400742688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65DD5C751D42FF8400742688 /* MTGuard */;
+			targetProxy = 65DD5C901D42FF8400742688 /* PBXContainerItemProxy */;
+		};
+		65DD5C9C1D42FF8400742688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65DD5C751D42FF8400742688 /* MTGuard */;
+			targetProxy = 65DD5C9B1D42FF8400742688 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65DD5C821D42FF8400742688 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65DD5C831D42FF8400742688 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65DD5C871D42FF8400742688 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65DD5C881D42FF8400742688 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65DD5CA11D42FF8400742688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65DD5CA21D42FF8400742688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65DD5CA41D42FF8400742688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MTGuard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msq.MTGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65DD5CA51D42FF8400742688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MTGuard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msq.MTGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		65DD5CA71D42FF8400742688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTGuardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msq.MTGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTGuard.app/MTGuard";
+			};
+			name = Debug;
+		};
+		65DD5CA81D42FF8400742688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTGuardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msq.MTGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTGuard.app/MTGuard";
+			};
+			name = Release;
+		};
+		65DD5CAA1D42FF8400742688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MTGuardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msq.MTGuardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTGuard;
+			};
+			name = Debug;
+		};
+		65DD5CAB1D42FF8400742688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MTGuardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msq.MTGuardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTGuard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65DD5C711D42FF8400742688 /* Build configuration list for PBXProject "MTGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DD5CA11D42FF8400742688 /* Debug */,
+				65DD5CA21D42FF8400742688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65DD5CA31D42FF8400742688 /* Build configuration list for PBXNativeTarget "MTGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DD5CA41D42FF8400742688 /* Debug */,
+				65DD5CA51D42FF8400742688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65DD5CA61D42FF8400742688 /* Build configuration list for PBXNativeTarget "MTGuardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DD5CA71D42FF8400742688 /* Debug */,
+				65DD5CA81D42FF8400742688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65DD5CA91D42FF8400742688 /* Build configuration list for PBXNativeTarget "MTGuardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DD5CAA1D42FF8400742688 /* Debug */,
+				65DD5CAB1D42FF8400742688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65DD5C6E1D42FF8400742688 /* Project object */;
+}
