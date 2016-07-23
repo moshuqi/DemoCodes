@@ -16,6 +16,7 @@
 		65DD5C941D42FF8400742688 /* MTGuardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD5C931D42FF8400742688 /* MTGuardTests.m */; };
 		65DD5C9F1D42FF8400742688 /* MTGuardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD5C9E1D42FF8400742688 /* MTGuardUITests.m */; };
 		65DD5CAE1D42FFE400742688 /* UIViewController+swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD5CAD1D42FFE400742688 /* UIViewController+swizzled.m */; };
+		65DD5CB11D430EB700742688 /* MainThreadGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD5CB01D430EB700742688 /* MainThreadGuard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		65DD5CA01D42FF8400742688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65DD5CAC1D42FFE400742688 /* UIViewController+swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+swizzled.h"; sourceTree = "<group>"; };
 		65DD5CAD1D42FFE400742688 /* UIViewController+swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+swizzled.m"; sourceTree = "<group>"; };
+		65DD5CAF1D430EB700742688 /* MainThreadGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainThreadGuard.h; sourceTree = "<group>"; };
+		65DD5CB01D430EB700742688 /* MainThreadGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainThreadGuard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				65DD5C791D42FF8400742688 /* Supporting Files */,
 				65DD5CAC1D42FFE400742688 /* UIViewController+swizzled.h */,
 				65DD5CAD1D42FFE400742688 /* UIViewController+swizzled.m */,
+				65DD5CAF1D430EB700742688 /* MainThreadGuard.h */,
+				65DD5CB01D430EB700742688 /* MainThreadGuard.m */,
 			);
 			path = MTGuard;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65DD5CB11D430EB700742688 /* MainThreadGuard.m in Sources */,
 				65DD5C811D42FF8400742688 /* ViewController.m in Sources */,
 				65DD5C7E1D42FF8400742688 /* AppDelegate.m in Sources */,
 				65DD5CAE1D42FFE400742688 /* UIViewController+swizzled.m in Sources */,
@@ -419,6 +425,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					MAIN_THREAD_GUARD_CRASH,
+				);
 				INFOPLIST_FILE = MTGuard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = msq.MTGuard;
