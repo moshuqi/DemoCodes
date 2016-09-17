@@ -4,8 +4,6 @@ import urllib2
 import re
 import zlib
 import os
-import urllib
-import urllib
 
 class Cartoon:
     def __init__(self, url):
