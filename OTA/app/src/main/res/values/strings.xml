@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OTA</string>
+    <string name="version_info">版本信息</string>
+    <string name="system_upgrade">版本更新</string>
+    <string name="checking_update">检查更新中...</string>
+    <string name="no_update">当前已是最新版本</string>
+    <string name="new_version">最新版本：</string>
+    <string name="download_update">下载更新</string>
+
+    <string name="android_auto_update_download_progress">正在下载:%1$d%%</string>
+</resources>

@@ -15,11 +15,12 @@ router.get('/update_info', function(req, res, next) {
     console.log('current version:' + name);
 
     var info = {
-        'url': '/ota_file/update.zip',
+        'url': '/ota_file/patch.zip',
         'updateMessage': 'Fix bugs.',
         'versionName': 'v2',
-        'md5': ''	                        
-		};
+        'md5': '',
+        'diffUpdate': true                        
+	};
 
     var dir = process.cwd() + '/ota_file'
     var filePath = path.join(dir, 'update.zip');
