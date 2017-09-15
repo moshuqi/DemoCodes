@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftMTGuard/MTGuard.swift"
-            timestampString = "527081621.484123"
+            timestampString = "527159592.722458"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
-            landmarkName = "hook()"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "replace(cls:methodName:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

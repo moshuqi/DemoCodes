@@ -54,6 +54,17 @@ class MTGuard {
     }
     
     func replace(cls: AnyClass, methodName: String) {
+        let selector: Selector = NSSelectorFromString(methodName)
         
+        let method: Method = class_getInstanceMethod(cls, selector)
+        let typeDescription = method_getTypeEncoding(method)
+        
+        let originalImp: IMP = class_getMethodImplementation(cls, selector)
+        let msgForwardImp: IMP = class_getMethodImplementation(cls, NSSelectorFromString("notExistMethodName"))
+        
+        class_replaceMethod(cls, selector, msgForwardImp, typeDescription);
+        print("dd")
     }
+    
+    
 }
