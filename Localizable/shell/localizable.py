@@ -85,7 +85,7 @@ def writeContent(content, file):
 
 def process():
 	print("process ...")
-	path = "../Localizable"
+	path = "./Localizable"
 	files = findAllFile(path)
 
 	print("Localizable files: ")

@@ -1,2 +1,7 @@
 #!/bin/bash
-python localizable.py 
+echo "Run localizable script ..."
+# python localizable.py 
+
+basepath=$(cd `dirname $0`; pwd)
+echo $basepath 
+python --version

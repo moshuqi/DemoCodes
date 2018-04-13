@@ -91,6 +91,7 @@
 				672BED20208042A00024F7BA /* Sources */,
 				672BED21208042A00024F7BA /* Frameworks */,
 				672BED22208042A00024F7BA /* Resources */,
+				672BED562080528B0024F7BA /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -148,6 +149,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		672BED562080528B0024F7BA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python ./shell/localizable.py\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		672BED20208042A00024F7BA /* Sources */ = {

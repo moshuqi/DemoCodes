@@ -7,3 +7,6 @@
 */
 "content" = "It is only when he is alone that he is really free.";
 
+
+# ################### Add by script at 2018-04-13-11:08:47 ###############
+"add_content" = "添加新的中文内容";
