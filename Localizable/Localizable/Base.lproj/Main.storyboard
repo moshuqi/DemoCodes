@@ -18,20 +18,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDC-8z-dFq">
-                                <rect key="frame" x="166" y="140" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsd-Fp-MNd">
-                                <rect key="frame" x="166" y="261" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F85-t4-TYt">
-                                <rect key="frame" x="166" y="382" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDC-8z-dFq">
+                                <rect key="frame" x="97" y="323.5" width="180" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="y3h-MX-wXE"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -39,19 +30,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="F85-t4-TYt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0oY-4t-JBZ"/>
-                            <constraint firstItem="rDC-8z-dFq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="31m-05-NbW"/>
-                            <constraint firstItem="F85-t4-TYt" firstAttribute="top" secondItem="vsd-Fp-MNd" secondAttribute="bottom" constant="100" id="HOI-Rr-RpN"/>
-                            <constraint firstItem="vsd-Fp-MNd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JIG-lH-VYL"/>
-                            <constraint firstItem="rDC-8z-dFq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O6A-PT-cXb"/>
-                            <constraint firstItem="vsd-Fp-MNd" firstAttribute="top" secondItem="rDC-8z-dFq" secondAttribute="bottom" constant="100" id="w5x-bD-uT5"/>
+                            <constraint firstItem="rDC-8z-dFq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8TO-bU-maM"/>
+                            <constraint firstItem="rDC-8z-dFq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LiD-KL-vgA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="label1" destination="rDC-8z-dFq" id="vGy-Lq-JmU"/>
-                        <outlet property="label2" destination="vsd-Fp-MNd" id="6Cw-i0-nip"/>
-                        <outlet property="label3" destination="F85-t4-TYt" id="Nur-Ft-6d1"/>
+                        <outlet property="label" destination="rDC-8z-dFq" id="lZS-tU-89P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

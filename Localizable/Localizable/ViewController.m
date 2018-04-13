@@ -10,9 +10,7 @@
 
 @interface ViewController ()
 
-@property(nonatomic, weak) IBOutlet UILabel *label1;
-@property(nonatomic, weak) IBOutlet UILabel *label2;
-@property(nonatomic, weak) IBOutlet UILabel *label3;
+@property(nonatomic, weak) IBOutlet UILabel *label;
 
 @end
 
@@ -21,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.label.text = NSLocalizedString(@"content", nil);
 }
 
 
